@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HMDeliveryAddressTableViewCell.h
 //  HungerMealsDelivery
 //
 //  Created by Vamsi on 17/09/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HMDeliveryAddressTableViewCell : UITableViewCell
 
 @end
-

@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		2BE1CC4F1D8CEDB50024F705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1CC4E1D8CEDB50024F705 /* main.m */; };
 		2BE1CC521D8CEDB50024F705 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1CC511D8CEDB50024F705 /* AppDelegate.m */; };
-		2BE1CC551D8CEDB50024F705 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1CC541D8CEDB50024F705 /* ViewController.m */; };
 		2BE1CC581D8CEDB50024F705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE1CC561D8CEDB50024F705 /* Main.storyboard */; };
 		2BE1CC5A1D8CEDB50024F705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE1CC591D8CEDB50024F705 /* Assets.xcassets */; };
 		2BE1CC5D1D8CEDB50024F705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE1CC5B1D8CEDB50024F705 /* LaunchScreen.storyboard */; };
 		2BE1CC681D8CEDB50024F705 /* HungerMealsDeliveryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1CC671D8CEDB50024F705 /* HungerMealsDeliveryTests.m */; };
 		2BE1CC731D8CEDB50024F705 /* HungerMealsDeliveryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1CC721D8CEDB50024F705 /* HungerMealsDeliveryUITests.m */; };
+		2BE1CC821D8CF07F0024F705 /* HMDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1CC811D8CF07F0024F705 /* HMDLoginViewController.m */; };
+		2BE1CC871D8CF6940024F705 /* HMDListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1CC861D8CF6940024F705 /* HMDListTableViewController.m */; };
+		2BE1CC8A1D8CF6FE0024F705 /* HMDeliveryAddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1CC891D8CF6FE0024F705 /* HMDeliveryAddressTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		2BE1CC4E1D8CEDB50024F705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BE1CC501D8CEDB50024F705 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2BE1CC511D8CEDB50024F705 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2BE1CC531D8CEDB50024F705 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2BE1CC541D8CEDB50024F705 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2BE1CC571D8CEDB50024F705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BE1CC591D8CEDB50024F705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BE1CC5C1D8CEDB50024F705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		2BE1CC6E1D8CEDB50024F705 /* HungerMealsDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HungerMealsDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE1CC721D8CEDB50024F705 /* HungerMealsDeliveryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HungerMealsDeliveryUITests.m; sourceTree = "<group>"; };
 		2BE1CC741D8CEDB50024F705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE1CC801D8CF07F0024F705 /* HMDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDLoginViewController.h; sourceTree = "<group>"; };
+		2BE1CC811D8CF07F0024F705 /* HMDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDLoginViewController.m; sourceTree = "<group>"; };
+		2BE1CC851D8CF6940024F705 /* HMDListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDListTableViewController.h; sourceTree = "<group>"; };
+		2BE1CC861D8CF6940024F705 /* HMDListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDListTableViewController.m; sourceTree = "<group>"; };
+		2BE1CC881D8CF6FE0024F705 /* HMDeliveryAddressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDeliveryAddressTableViewCell.h; sourceTree = "<group>"; };
+		2BE1CC891D8CF6FE0024F705 /* HMDeliveryAddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDeliveryAddressTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,8 @@
 			children = (
 				2BE1CC501D8CEDB50024F705 /* AppDelegate.h */,
 				2BE1CC511D8CEDB50024F705 /* AppDelegate.m */,
-				2BE1CC531D8CEDB50024F705 /* ViewController.h */,
-				2BE1CC541D8CEDB50024F705 /* ViewController.m */,
+				2BE1CC841D8CF5230024F705 /* Cells */,
+				2BE1CC831D8CF50F0024F705 /* ViewControllers */,
 				2BE1CC561D8CEDB50024F705 /* Main.storyboard */,
 				2BE1CC591D8CEDB50024F705 /* Assets.xcassets */,
 				2BE1CC5B1D8CEDB50024F705 /* LaunchScreen.storyboard */,
@@ -138,6 +144,26 @@
 				2BE1CC741D8CEDB50024F705 /* Info.plist */,
 			);
 			path = HungerMealsDeliveryUITests;
+			sourceTree = "<group>";
+		};
+		2BE1CC831D8CF50F0024F705 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BE1CC801D8CF07F0024F705 /* HMDLoginViewController.h */,
+				2BE1CC811D8CF07F0024F705 /* HMDLoginViewController.m */,
+				2BE1CC851D8CF6940024F705 /* HMDListTableViewController.h */,
+				2BE1CC861D8CF6940024F705 /* HMDListTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2BE1CC841D8CF5230024F705 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2BE1CC881D8CF6FE0024F705 /* HMDeliveryAddressTableViewCell.h */,
+				2BE1CC891D8CF6FE0024F705 /* HMDeliveryAddressTableViewCell.m */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BE1CC551D8CEDB50024F705 /* ViewController.m in Sources */,
 				2BE1CC521D8CEDB50024F705 /* AppDelegate.m in Sources */,
+				2BE1CC8A1D8CF6FE0024F705 /* HMDeliveryAddressTableViewCell.m in Sources */,
+				2BE1CC821D8CF07F0024F705 /* HMDLoginViewController.m in Sources */,
 				2BE1CC4F1D8CEDB50024F705 /* main.m in Sources */,
+				2BE1CC871D8CF6940024F705 /* HMDListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HungerMealsDelivery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.basicapps.hungermealsdelivery.HungerMealsDelivery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HungerMealsDelivery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.basicapps.hungermealsdelivery.HungerMealsDelivery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
