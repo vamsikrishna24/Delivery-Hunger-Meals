@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9CCA891D8D7EFA00962F7B /* HMDeliveryStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CCA881D8D7EFA00962F7B /* HMDeliveryStatusViewController.m */; };
+		2B9CCA8B1D8D82D000962F7B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9CCA8A1D8D82D000962F7B /* MapKit.framework */; };
+		2B9CCA8D1D8D838D00962F7B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9CCA8C1D8D838D00962F7B /* CoreLocation.framework */; };
 		2BE1CC4F1D8CEDB50024F705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1CC4E1D8CEDB50024F705 /* main.m */; };
 		2BE1CC521D8CEDB50024F705 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1CC511D8CEDB50024F705 /* AppDelegate.m */; };
 		2BE1CC581D8CEDB50024F705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE1CC561D8CEDB50024F705 /* Main.storyboard */; };
@@ -37,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B9CCA871D8D7EFA00962F7B /* HMDeliveryStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDeliveryStatusViewController.h; sourceTree = "<group>"; };
+		2B9CCA881D8D7EFA00962F7B /* HMDeliveryStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDeliveryStatusViewController.m; sourceTree = "<group>"; };
+		2B9CCA8A1D8D82D000962F7B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2B9CCA8C1D8D838D00962F7B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		2BE1CC4A1D8CEDB50024F705 /* HungerMealsDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungerMealsDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE1CC4E1D8CEDB50024F705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BE1CC501D8CEDB50024F705 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9CCA8D1D8D838D00962F7B /* CoreLocation.framework in Frameworks */,
+				2B9CCA8B1D8D82D000962F7B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +96,8 @@
 		2BE1CC411D8CEDB50024F705 = {
 			isa = PBXGroup;
 			children = (
+				2B9CCA8C1D8D838D00962F7B /* CoreLocation.framework */,
+				2B9CCA8A1D8D82D000962F7B /* MapKit.framework */,
 				2BE1CC4C1D8CEDB50024F705 /* HungerMealsDelivery */,
 				2BE1CC661D8CEDB50024F705 /* HungerMealsDeliveryTests */,
 				2BE1CC711D8CEDB50024F705 /* HungerMealsDeliveryUITests */,
@@ -153,6 +164,8 @@
 				2BE1CC811D8CF07F0024F705 /* HMDLoginViewController.m */,
 				2BE1CC851D8CF6940024F705 /* HMDListTableViewController.h */,
 				2BE1CC861D8CF6940024F705 /* HMDListTableViewController.m */,
+				2B9CCA871D8D7EFA00962F7B /* HMDeliveryStatusViewController.h */,
+				2B9CCA881D8D7EFA00962F7B /* HMDeliveryStatusViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -300,6 +313,7 @@
 				2BE1CC8A1D8CF6FE0024F705 /* HMDeliveryAddressTableViewCell.m in Sources */,
 				2BE1CC821D8CF07F0024F705 /* HMDLoginViewController.m in Sources */,
 				2BE1CC4F1D8CEDB50024F705 /* main.m in Sources */,
+				2B9CCA891D8D7EFA00962F7B /* HMDeliveryStatusViewController.m in Sources */,
 				2BE1CC871D8CF6940024F705 /* HMDListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,6 +542,7 @@
 				2BE1CC791D8CEDB50024F705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BE1CC7A1D8CEDB50024F705 /* Build configuration list for PBXNativeTarget "HungerMealsDeliveryTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +551,7 @@
 				2BE1CC7C1D8CEDB50024F705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BE1CC7D1D8CEDB50024F705 /* Build configuration list for PBXNativeTarget "HungerMealsDeliveryUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +560,7 @@
 				2BE1CC7F1D8CEDB50024F705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
